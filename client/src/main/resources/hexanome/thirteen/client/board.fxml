@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="1053.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hexanome.thirteen.client.controller.SomeController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="game-board-background" stylesheets="@assets/css/style.css">
+         <children>
+            <Label fx:id="stageReference" layoutX="665.0" layoutY="43.0" prefHeight="23.0" prefWidth="28.0" />
+            <ImageView fx:id="lolcool" fitHeight="150.0" fitWidth="200.0" layoutX="503.0" layoutY="491.0" onMouseClicked="#userToggleCard" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/green_card1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slotOne" fitHeight="150.0" fitWidth="200.0" layoutX="350.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/green_deck.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="652.0" layoutY="491.0" onMouseClicked="#userToggleCard" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/green_card2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="802.0" layoutY="491.0" onMouseClicked="#userToggleCard" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/green_card3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="948.0" layoutY="491.0" onMouseClicked="#userToggleCard" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/green_card4.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="349.0" layoutY="686.0" mnemonicParsing="false" onAction="#userOpenInventory" prefHeight="50.0" prefWidth="66.0" styleClass="standard-popup-button" stylesheets="@assets/css/button-style.css" text="..." />
+            <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="15.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/blue_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="13.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/green_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="14.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/black_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="13.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/red_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="15.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/white_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="13.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/gold_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="34.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/blue_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="82.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/green_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="133.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/black_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="182.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/red_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="232.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/white_token.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="279.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/gold_token.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="51.0" layoutY="750.0" text="1" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="110.0" layoutY="750.0" text="1" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="161.0" layoutY="750.0" text="1" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="211.0" layoutY="750.0" text="1" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="260.0" layoutY="750.0" text="1" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="305.0" layoutY="750.0" text="1" textAlignment="CENTER" />
+            <Label layoutX="33.0" layoutY="664.0" text="PLAYER 1" />
+            <Label layoutX="446.0" layoutY="655.0" text="MY RESOURCES" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="167.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane fx:id="purMenu" layoutX="218.0" layoutY="55.0" prefHeight="571.0" prefWidth="691.0" styleClass="popup-background" stylesheets="@assets/css/style.css">
+               <children>
+                  <Button fx:id="purchaseCancel" layoutX="292.0" layoutY="441.0" mnemonicParsing="false" onAction="#userCancelCard" prefHeight="66.0" prefWidth="123.0" styleClass="standard-popup-button" stylesheets="@assets/css/button-style.css" text="Cancel" />
+                  <Button fx:id="purchaseConfirm" layoutX="266.0" layoutY="310.0" mnemonicParsing="false" onAction="#userPurchaseCard" prefHeight="100.0" prefWidth="175.0" styleClass="standard-popup-button" stylesheets="@assets/css/button-style.css" text="Purchase" />
+                  <Label alignment="CENTER" layoutX="109.0" layoutY="29.0" prefHeight="65.0" prefWidth="490.0" styleClass="popup-text" stylesheets="@assets/css/style.css" text="PLEASE CHOOSE YOUR ACTION" textAlignment="CENTER" />
+                  <ImageView fx:id="cardOverview" fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="invMenu" layoutX="189.0" layoutY="201.0" prefHeight="446.0" prefWidth="730.0" styleClass="popup-background">
+               <children>
+                  <Label alignment="CENTER" layoutX="167.0" layoutY="22.0" prefHeight="61.0" prefWidth="300.0" styleClass="popup-text" stylesheets="@assets/css/style.css" text="MY RESOURCES" textAlignment="CENTER" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

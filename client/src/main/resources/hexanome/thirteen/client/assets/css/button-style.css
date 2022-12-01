@@ -1,0 +1,51 @@
+/*
+Color : Hexcode
+
+blueviolet : #8a2be2
+gold : #ffd700
+darkblue : #00008b
+lightblue : #add8e6
+green : #90ee90
+white : #ffffff
+orange : #ffa500
+cornflowerblue : #6495ed
+close-to-dark-grey: #70ad47
+
+
+
+*/
+
+@font-face{
+    font-family: 'Eagle Lake';
+    font-weight: 400;
+    src: url('../fonts/EagleLake-Regular.ttf') format('truetype');
+  }
+
+
+
+.login-button{
+   -fx-background-color: #6495ed;
+   -fx-font-size : 17;
+   -fx-font-style : bold;
+ }
+
+.lobby-button-one {
+    -fx-background-color : #add8e6;
+    -fx-text-fill : #ffffff;
+    -fx-font-size : 15;
+    -fx-font-family : 'Eagle Lake';
+    
+}
+
+.lobby-button-two {
+    -fx-background-color : #ffa500;
+    -fx-text-fill : #ffffff;
+    -fx-font-size : 12;
+}
+
+.standard-popup-button {
+    -fx-background-color : #6495ed;
+    -fx-text-fill : #ffffff;
+    -fx-font-size : 15;
+    -fx-font-family : 'Eagle Lake';
+}

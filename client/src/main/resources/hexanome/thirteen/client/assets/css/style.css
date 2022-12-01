@@ -1,0 +1,73 @@
+/*
+Color : Hexcode
+
+blueviolet : #8a2be2
+gold : #ffd700
+darkblue : #00008b
+lightblue : #add8e6
+green : #90ee90
+white : #ffffff
+orange : #ffa500
+cornflowerblue : #6495ed
+close-to-dark-grey: #70ad47
+
+
+
+*/
+
+@font-face{
+    font-family: 'Eagle Lake';
+    font-weight: 400;
+    src: url('../fonts/EagleLake-Regular.ttf') format('truetype');
+  }
+
+/* for login page  */
+.login-theme{
+  -fx-background-image:url('../images/main1.jpg');
+  -fx-background-size: stretch ;
+}
+
+.login-text{
+  -fx-text-fill : #70ad47 ;
+  -fx-font-style: italic;
+  -fx-font-size: 20;
+}
+
+.login-credential-container{
+  -fx-background-color: #add8e6;
+}
+
+
+/* for lobby page  */
+.lobby-theme{
+    -fx-background-image:url('../images/main2.jpg');
+    -fx-background-size: cover ;
+}
+
+.lobby-welcome-container{
+    -fx-background-color : #00008b;
+    
+}
+.lobby-welcome-text{
+    -fx-text-fill : #ffd700 ;
+    -fx-font-weight : 400;
+    -fx-font-family: 'Eagle Lake';
+    -fx-font-size: 26;
+}
+
+/* For standard popups */
+.popup-background {
+    -fx-background-color: "beige";
+}
+
+.popup-text {
+    -fx-text-fill : "black" ;
+    -fx-font-weight : 400;
+    -fx-font-family: 'Eagle Lake';
+    -fx-font-size: 26;
+}
+
+/* For game board*/
+.game-board-background {
+    -fx-background-color: "lightgray";
+}

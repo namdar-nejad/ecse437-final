@@ -1,0 +1,15 @@
+hexanome\thirteen\server\model\Deck.class
+hexanome\thirteen\server\model\Manager.class
+hexanome\thirteen\server\model\Noble.class
+hexanome\thirteen\server\controller\Launcher.class
+hexanome\thirteen\server\model\Token.class
+hexanome\thirteen\server\model\Board.class
+hexanome\thirteen\server\model\Splendor.class
+hexanome\thirteen\server\model\DeckType.class
+hexanome\thirteen\server\controller\LobbyService.class
+hexanome\thirteen\server\model\Card.class
+hexanome\thirteen\server\model\Rank.class
+hexanome\thirteen\server\model\Game.class
+hexanome\thirteen\server\model\VanillaCard.class
+hexanome\thirteen\server\controller\Rest.class
+hexanome\thirteen\server\controller\Player.class
