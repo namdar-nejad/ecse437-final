@@ -1,7 +1,7 @@
 package hexanome.thirteen.server.model;
+
 import java.util.EnumMap;
 import java.util.List;
-
 import hexanome.thirteen.server.model.Card;
 import hexanome.thirteen.server.model.Noble;
 import hexanome.thirteen.server.model.Token;
