@@ -82,16 +82,6 @@ public class Board {
       }
       slots.add(Arrays.asList(tempSlot));
     }
-
-    /* Assign the orient cards drawn from the deck to the card slots
-    tempSlot = new Card[2];
-    for (int i = 0; i < 3; i++) {
-      for (int j = 0; j < 2; j++) {
-        tempSlot[j] = orDeck.get(i).draw();
-      }
-      orSlots.add(Arrays.asList(tempSlot));
-    }
-     */
   }
 
   /**
