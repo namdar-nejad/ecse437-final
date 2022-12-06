@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "032494a6_4da311eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020555
+      },
+      "writtenOn": "2022-12-06T08:37:17Z",
+      "side": 1,
+      "message": "Thank you, I\u0027m surprised the stylecheck didn\u0027t point them out.",
+      "revId": "71188e54ba95a12cf91e0642cdddf22e0c201a35",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
