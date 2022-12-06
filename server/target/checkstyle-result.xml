@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\controller\Launcher.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/controller/Rest.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\controller\LobbyService.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/controller/Player.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\controller\Player.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/controller/Launcher.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\controller\Rest.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/controller/LobbyService.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Board.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Manager.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Card.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Noble.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Deck.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Rank.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\DeckType.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/VanillaCard.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Game.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/DeckType.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Manager.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Card.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Noble.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Game.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Rank.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Deck.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Splendor.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Board.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\Token.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Splendor.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\java\hexanome\thirteen\server\model\VanillaCard.java">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/java/hexanome/thirteen/server/model/Token.java">
 </file>
-<file name="D:\School\Mcgill\Semester6\COMP361\Splendor\f2022-hexanome-13\server\src\main\resources\application.properties">
+<file name="/Users/namdarkabolinejad/Desktop/FALL2022/ecse437-final/server/src/main/resources/application.properties">
 </file>
 </checkstyle>
